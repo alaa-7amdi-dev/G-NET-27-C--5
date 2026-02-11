@@ -73,10 +73,49 @@
             //{
             //    Console.WriteLine(arr[j]);
             //}
-            
+
 
             #endregion
 
-        }
+            #region Student Grades Matrix
+            //double[,]? studentGrades = new double[3, 4];
+            //Console.WriteLine("Enter Grade of Each Student");
+            //for (int i = 0; i < studentGrades.GetLength(0); i++)
+            //{
+            //    Console.WriteLine($"Student{i+1}:");
+            //    for (int j = 0; j< studentGrades.GetLength(1); j++)
+            //    {
+            //        Console.WriteLine($"Grade of Subject{j+1}:");
+
+            //        studentGrades[i,j]=double.Parse(Console.ReadLine());
+            //    }
+
+            //}
+
+            
+            //double Sum = 0;
+
+            //for (int i = 0; i < studentGrades.GetLength(0); i++)
+            //{
+            //    double studentSum = 0;
+            //    for (int j = 0; j < studentGrades.GetLength(1); j++)
+            //    {
+            //        studentSum += studentGrades[i, j];
+            //    }
+
+            //    double studentAvg = studentSum / 4;
+            //    Sum += studentSum;
+
+            //    Console.WriteLine($"Student {i + 1} Average: {studentAvg}");
+            //    Console.WriteLine($"Student {i + 1} sum: {Sum}");
+            //}
+
+
+
+
+                #endregion
+
+
+            }
     }
 }
