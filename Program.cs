@@ -153,8 +153,27 @@
             //Console.WriteLine(result);
 
             #endregion
+
+            #region Circle Calculator with out
+
+            //double area, circumference;
+            //CalculateCircle(5, out area, out circumference);
+
+
+            #endregion
         }
 
+
+        //static void CalculateCircle (double radius, out double area, out double circumference)
+        //{
+        //    area = Math.PI * Math.Pow(radius,2);
+        //    circumference =2* Math.PI * radius;
+        //    Console.WriteLine($"Area ={area}");
+        //    Console.WriteLine($"Circumference ={circumference}");
+
+
+
+        //}
         static double Add(double x, double y)
             {
                double result=x + y;
