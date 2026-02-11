@@ -92,7 +92,7 @@
 
             //}
 
-            
+
             //double Sum = 0;
 
             //for (int i = 0; i < studentGrades.GetLength(0); i++)
@@ -113,9 +113,73 @@
 
 
 
-                #endregion
+            #endregion
+
+            #region Functions Q1
+
+            //Console.WriteLine("Enter Value Of first Num= ");
+            // double.TryParse(Console.ReadLine(), out double a);
+            //Console.WriteLine("Enter Value Of second Num= ");
+            //double.TryParse(Console.ReadLine(), out double b);
+
+            //Console.WriteLine("Enter operator : ");
+            //bool isValid = char.TryParse(Console.ReadLine(), out char Oper);
+            //double result=0;
+            //do
+            //{
+            //    break;
+            //} while (!isValid);
+
+            //switch (Oper)
+            //{
+            //    case '+':
+            //        result = Add(a, b);
+            //        break;
+            //    case '-':
+            //        result = Subtract(a, b);
+            //        break;
+            //    case '*':
+            //        result = Multiply(a, b);
+            //        break;
+            //    case '/':
+            //        result = Divide(a, b);
+            //        break;
+            //    default:
+            //        Console.WriteLine("Invaild Operatir");
+            //        break;
 
 
+            //}
+            //Console.WriteLine(result);
+
+            #endregion
+        }
+
+        static double Add(double x, double y)
+            {
+               double result=x + y;
+               return result;
+   
             }
+        static double Subtract(double x, double y)
+            {
+               double result=x - y;
+               return result;
+   
+            }
+        static double Multiply(double x, double y)
+            {
+               double result=x * y;
+               return result;
+   
+            }
+        static double Divide(double x, double y)
+            {
+               double result=x / y;
+               return result;
+   
+            }
+
+
     }
 }
